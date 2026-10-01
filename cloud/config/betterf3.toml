@@ -1,0 +1,54 @@
+# BetterF3 для NoteBuns: только FPS, координаты, измерение, направление и биом.
+# Этот файл раздаёт лаунчер — правки у игрока перезапишутся.
+modules_right = []
+
+[[modules_left]]
+name = "fps"
+
+  [modules_left.lines]
+  fps = true
+
+[[modules_left]]
+name = "coords"
+
+  [modules_left.lines]
+  player_coords = true
+  block_coords = false
+  chunk_relative_coords = false
+  chunk_coords = false
+  velocity = false
+  absolute_velocity = false
+  horizontal_velocity = false
+
+[[modules_left]]
+name = "location"
+
+  [modules_left.lines]
+  dimension = true
+  facing = true
+  rotation = false
+  light = false
+  light_server = false
+  highest_block = false
+  highest_block_server = false
+  biome = true
+  local_difficulty = false
+  day_ticks = false
+  days_played = false
+  slime_chunk = false
+
+[general]
+disable_mod = false
+auto_start = false
+space_modules = false
+shadow_text = true
+animations = true
+animationSpeed = 1.0
+fontScale = 1.0
+background_color = 1867534416
+hide_debug_crosshair = false
+hide_sidebar = true
+hide_bossbar = true
+always_show_profiler = false
+always_show_tps = false
+always_show_ping = false
