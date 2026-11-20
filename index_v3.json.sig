@@ -1,0 +1,1 @@
+{"v": 1, "alg": "ed25519", "kid": "content-2026-09", "sig": "DpI/NninW34cxTpktNoJNhRynT1t34T4GEF5wDjsHP6EycGKf4fs2urfDwg7J0w7xlqmxAPfLsHDFOoATZpdAg=="}
