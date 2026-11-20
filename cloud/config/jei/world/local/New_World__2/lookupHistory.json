@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"betternether:anchor_tree_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"betternether:spawn_egg_skull"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
